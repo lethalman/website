@@ -29,7 +29,8 @@
       <div id="footer">
         <hr>
         Design and contents licensed under the <a href="http://creativecommons.org/licenses/by-sa/2.5/" target="_blank">CC Attribution-ShareAlike</a> terms.<br />
-        This website has started being published since Sun Jun 21 2009.
+        This website has started being published since Sun Jun 21 2009.<br />
+        Hosted at jooel.endofinternet.org.
       </div>
       
     </div> <!-- page -->
