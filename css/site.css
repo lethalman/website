@@ -3,6 +3,7 @@
     border: 0;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 html
@@ -18,8 +19,16 @@ body
     padding: 2em;
 }
 
+h1
+{
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
 p
 {
+    text-align: justify;
+    line-height: 1.4em;
     margin-top: 1em;
     font-size: 0.9em;
 }
@@ -34,19 +43,6 @@ hr
     border-top: 1px solid gray;
 }
 
-a, a:link, a:visited
-{
-    color: #003366;
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: 1px solid #003366;
-}
-
-a:hover
-{
-    color: #ff9933;
-}
-
 #page
 {
     width: 60%;
@@ -59,8 +55,8 @@ a:hover
 
 #header ul
 {
-    list-style: none;
     text-align: center;
+    margin: 0;
 }
 
 #header ul li
@@ -68,7 +64,7 @@ a:hover
     display: inline;
 }
 
-#header ul li a
+#header a
 {
     color: #435263;
     font-weight: bold;
@@ -80,7 +76,7 @@ a:hover
     -moz-border-radius: 10px;
 }
 
-#header ul li a:hover
+#header a:hover
 {
     background-color: #adcae9;
 }
@@ -89,10 +85,35 @@ a:hover
 {
     clear: both;
     margin-top: 2em;
-    background: #dedec3;
+    background: #e8e8d3;
     padding: 0.1em 1em 1em 1em;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
+}
+
+#main a, #main a:link, #main a:visited
+{
+    color: #003366;
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 1px solid #003366;
+}
+
+#main a:hover
+{
+    color: #c66e19;
+}
+
+#main ul
+{
+    list-style: none;
+    margin-left: 1em;
+}
+
+#main li
+{
+    font-size: 0.9em;
+    margin-top: 0.5em;
 }
 
 #footer
