@@ -1,0 +1,13 @@
+{#TITLE#:Error:##}
+
+<h1>Error</h1>
+
+<p>
+<strong>An error occurred... what were you doing? :)</strong><br />
+Please consider reporting any errors to <a href="$(ROOT)/about.html#contacts">me</a> <em>(e.g. wrong links)</em>.
+</p>
+
+<p>
+<em>You will get redirected to the <a href="$(ROOT)/index.html">homepage</a> in 3 seconds.</em>
+<meta http-equiv="refresh" content="3;url=$(ROOT)/index.html" />
+</p>

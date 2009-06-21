@@ -93,7 +93,6 @@ hr
 
 #main a, #main a:link, #main a:visited
 {
-    color: #003366;
     text-decoration: none;
     font-weight: normal;
     border-bottom: 1px solid #003366;
@@ -102,6 +101,11 @@ hr
 #main a:hover
 {
     color: #c66e19;
+}
+
+#main a:hover.anchor
+{
+    color: #003366;
 }
 
 #main ul
