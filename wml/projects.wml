@@ -1,5 +1,38 @@
 {#TITLE#:Projects:##}
 
+<h1>Current projects</h1>
 <p>
-Lack of time...
+  Projects I'm actually owning:
+  <ul>
+    <li><a href="http://syx.berlios.de">Smalltalk YX</a> <em>- Smalltalk-80 programming language implementation</em></li>
+    <li><a href="http://freespeak.berlios.de">FreeSpeak</a> <em>- GNOME desktop translation tool</em></li>
+  </ul>
+  <br />
+  Projects I'm actively contributing to:
+  <ul>
+    <li><a href="http://pkg-gnome.alioth.debian.org">Pkg-GNOME</a> <em>- Debian packaging of GNOME project</em></li>
+    <li><a href="http://wiki.debian.org/reportbug">Reportbug</a> <em>- Debian bug reporting tool</em></li>
+  </ul>
+</p>
+
+<h1>Old projects</h1>
+<p>
+  Inactive or obsolete projects I own:
+  <ul>
+    <li><a href="http://freshmeat.net/projects/squeakgtk">SqueakGtk</a> <em>- GTK+ bindings for Squeak Smalltalk</em></li>
+    <li><a href="http://freshmeat.net/projects/getnews">GetNews</a> <em>- news fetcher from websites</em></li>
+    <li><a href="http://freshmeat.net/projects/plugboard">Plugboard</a> <em>- plugins framework for Python</em></li>
+    <li><a href="http://freshmeat.net/projects/pyircserver">pyIrcServer</a> <em>- innovative IRC server</em></li>
+    <li><a href="http://freshmeat.net/projects/pywebsms">pyWebSMS</a> <em>- graphical SMS sender</em></li>
+  </ul>
+  <br />
+  Projects I contributed to:
+  <ul>
+    <li><a href="http://www.webkitgtk.org">WebKitGtk</a> <em>- GTK+ port of WebKit</em></li>
+    <li><em>others...</em></li>
+  </ul>
+</p>
+
+<p>
+<strong>Thanks to everyone helping me with the projects, and to everyone else working on free <em>(as in freedom)</em> projects out there.</strong>
 </p>
