@@ -2,7 +2,7 @@
 <html lang="it">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Alcambraz -- {#TITLE#}</title>
+    <title>Alcambraz | {#TITLE#}</title>
     <link rev="made" href="mailto:EMAIL" />
     <link rel="shortcut icon" href="favicon.ico" />
     {#ALTERNATE#}
