@@ -1,34 +1,24 @@
 {#TITLE#:Home:##}
 
-<h1>Where I am?</h1>
+<h1>what is this place for</h1>
 
 <p>
-This is the personal homepage of <strong>Luca Bruno</strong> <em>(aka Lethalman)</em>.<br />
+I'm Luca Bruno <em>(read as I'm nobody)</em> and this site is going to keep computer science paperworks and jobs collected.
+Stack of <a href="http://www.gnu.org">free software</a> involved to make this site:
+</p>
+
+<ul>
+<li><a href="http://thewml.org">WML</a> - static website generator</li>
+<li><a href="http://www.gnu.org/software/make/">GNU Make</a> - controls the generation of the site</li>
+<li><a href="http://live.gnome.org/Epiphany/WebKit">Epiphany/WebKit</a> - web browser</li>
+<li><a href="http://www.gnu.org/software/emacs/">GNU Emacs</a> - extensible, customizable text editor</li>
+<li><a href="http://www.debian.org">Debian GNU/Linux</a> - the universal operating system</li>
+</ul>
+
+<p>
+I'm used to suggest everybody to use free software to protect your own freedom. So, I suggest you to use free software and adopt the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL license</a> for your projects when possible.
 </p>
 
 <p>
-The purpose of this place is to share my computer science paperworks and jobs, and keep these works collected.
-</p>
-
-<p>
-As you can see I'm neither a good web designer nor English writer, though I've tried to make the website as much readable and nice as possible.
-</p>
-
-<p>
-<em>Have fun surfing around here... (brrr!)</em>
-</p>
-
-<h1>Why a self-hosted website?</h1>
-
-<p>
-There are many reasons why I've chosen to host this website on my server. First of all it's fun to see a dns pointing here, and at the same my girlfriend is happy to see her name here <em>(discover where :) )</em> and become part of my computer nightmares.
-</p>
-
-<p>
-Most of all, I've decided to take up this website since I've got a PC for gratis <em>(it was unused and "obsolete" for other people)</em> to use as server.<br />
-On the other hand, administrating and securing a server is a hard process, but I'll try to do my best as far as I can, for the community and the entire world <em>(woa wowowooo :S )</em>.
-</p>
-
-<p>
-If you want me to host your personal website, in total anonimity, consider visiting the <a href="http://jooel.endofinternet.org">machine website</a>. Machines should be shared too in order to expose free Internet services...
+<em><a href="mailto:lethalman88@gmail.com">My dirty email contact</a></em>
 </p>
