@@ -1,0 +1,22 @@
+{#TITLE#:Valagtkdoc:##}
+
+<h1>valagtkdoc</h1>
+<p>
+The <b>valagtdock</b> tool is used to link Vala and GTK-Doc outputs.
+</p>
+<p>
+Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/valagtkdoc-1.0.tar.gz">valagtkdoc-1.0.tar.gz</a>.<br>
+Development version at the <a href="http://gitorious.org/lethal-works/valagtkdoc">git repository</a>.<br>
+Documentation and usage at <a href="$(ROOT)/valagtkdoc/">valagtkdoc tool reference</a>.
+</p>
+<h1>install</h1>
+<p>
+<b>Requirements</b>: build-essential, libvala-dev
+</p>
+<p>
+Type <code>make</code> to build valagtkdoc.<br>
+</p>
+<p>
+To install valagtkdoc under /usr/local/bin type <code>make install</code> as root. If you want to change the installation
+directory (e.g. under /usr/bin) type <code>make install DESTDIR=/usr</code>.
+</p>

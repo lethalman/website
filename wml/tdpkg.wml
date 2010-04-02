@@ -1,65 +1,52 @@
 {#TITLE#:tdpkg:##}
 
 <h1>tdpkg</h1>
-
 <p>
-The <b>tdpkg</b> shared library is used to speed up <a href="http://en.wikipedia.org/wiki/Dpkg">dpkg</a> .list files loading using either <a href="http://1978th.net/tokyocabinet/">tokyocabinet</a> or <a href="http://www.sqlite.org">sqlite3</a>.<br />
+The <b>tdpkg</b> shared library is used to speed up <a href="http://en.wikipedia.org/wiki/Dpkg">dpkg</a> .list files loading using either <a href="http://1978th.net/tokyocabinet/">tokyocabinet</a> or <a href="http://www.sqlite.org">sqlite3</a>.<br>
 It currently works for the <a href="http://www.debian.org">Debian GNU/Linux</a> system.
 </p>
-
 <p>
-Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/tdpkg-1.0.tar.gz">tdpkg-1.0.tar.gz</a>.<br />
+Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/tdpkg-1.0.tar.gz">tdpkg-1.0.tar.gz</a>.<br>
 Development version at the <a href="http://gitorious.org/lethal-works/tdpkg">git repository</a>.
 </p>
-
 <h1>build</h1>
-
 <p>
 <b>Requirements</b>: build-essential, libsqlite3-dev <em>(for the sqlite3 backend)</em> and libtokyocabinet-dev <em>(for the tokyocabinet backend)</em>
 </p>
-
 <p>
-Type <code>make</code> to build tdpkg with tokyocabinet support.<br />
-Type <code>make CACHE=sqlite</code> instead for sqlite3 support.</br />
+Type <code>make</code> to build tdpkg with tokyocabinet support.<br>
+Type <code>make CACHE=sqlite</code> instead for sqlite3 support.</br>
 </p>
-
 <p>
 <b>Important</b>: You'd better not install this library, it could make your system highly
 unstable.
 </p>
-
 <h1>usage</h1>
-
 <p>
 Please make a backup copy of your /var/lib/dpkg/info/ directory before using
 tdpkg.
 </p>
-
 <p>
-Manual usage:<br />
+Manual usage:<br>
 <pre>
 LD_PRELOAD=./libtdpkg.so dpkg ...
 </pre>
 </p>
-
 <p>
 For system-wide usage use an alias (make sure you use the absolute path to
-libtdpkg.so):<br />
+libtdpkg.so):<br>
 <pre>
 alias dpkg="LD_PRELOAD=/path/to/libtdpkg.so dpkg"
 </pre>
 </p>
-
 <p>
 The cache for both sqlite3 and tokyocabinet is located at <b>/var/lib/dpkg/info/tdpkg.cache</b>.
 </p>
-
 <h1>benchmarking</h1>
-
 <p>
 The operations involved with dpkg database reading are mostly done on the file system.
 For this reason cleaning up the kernel cache is a must before calling either tdpkg or dpkg:
 <pre>
-echo 1 > /proc/sys/vm/drop_caches
+echo 1> /proc/sys/vm/drop_caches
 </pre>
 </p>
