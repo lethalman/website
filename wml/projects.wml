@@ -5,9 +5,9 @@
 <p>
   Projects I'm actually owning:
   <ul>
-    <li><a href="$(ROOT)/tdpkg.html">Tdpkg</a> <em>- dynamic cache for dpkg</em></li>
+    <li><a href="$(ROOT)/maja/index.html">Maja</a> <em>- Vala to Javascript compiler</em></li>
+    <li><a href="$(ROOT)/mipsdis.html">Mipsdis</a> <em>- MIPS32 (Release 2) disassembler for reversing stripped ELF (missing sections table)</em></li>
     <li><a href="$(ROOT)/valag.html">Valag</a> <em>- Vala Graph generator with graphviz</em></li>
-    <li><a href="$(ROOT)/valagtkdoc.html">Valagtkdoc</a> <em>- GTK-Doc generator tool for the Vala language</em></li>
     <li><a href="http://freespeak.berlios.de">FreeSpeak</a> <em>- GNOME desktop translation tool</em></li>
     <li><a href="http://gitorious.org/spadi">Spadi and Corraza</a> <em>- free 3D CAD for architects</em></li>
     <li><a href="http://syx.berlios.de">Smalltalk YX</a> <em>- Smalltalk-80 programming language implementation</em></li>
@@ -24,6 +24,8 @@
 <p>
   Inactive or obsolete projects I <em>(used to)</em> own:
   <ul>
+    <li><a href="$(ROOT)/tdpkg.html">Tdpkg</a> <em>- dynamic cache for dpkg (obsolete since latest version of dpkg)</em></li>
+    <li><a href="$(ROOT)/valagtkdoc.html">Valagtkdoc</a> <em>- GTK-Doc generator tool for the Vala language (obsolete since integration within valadoc)</em></li>
     <li><a href="http://freshmeat.net/projects/squeakgtk">SqueakGtk</a> <em>- GTK+ bindings for Squeak Smalltalk</em></li>
     <li><a href="http://freshmeat.net/projects/getnews">GetNews</a> <em>- news fetcher from websites</em></li>
     <li><a href="http://freshmeat.net/projects/plugboard">Plugboard</a> <em>- plugins framework for Python</em></li>
