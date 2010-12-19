@@ -1,0 +1,42 @@
+{#TITLE#:mipsdis:##}
+
+<h1>mipsdis</h1>
+<p>
+The <b>mipsdis</b> console application is a MIPS32 (Release 2) disassembler for reversing stripped ELF (missing sections table).<br />
+Features:
+<ul>
+<li>Guess .text and .rodata segments without sections table</li>
+<li>Functions/Branching labels</li>
+<li>Symbol resolving (strings, global variables and branches/functions)</li>
+<li>Comments for each instruction line</li>
+</ul>
+</p>
+<p>
+It has been successfully tested on Vodafone Station shipping Broadcom binaries.
+</p>
+<p>
+Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/mipsdis-1.0.tar.gz">mipsdis-1.0.tar.gz</a>.<br>
+Development version at the <a href="http://gitorious.org/lethal-works/mipsdis">git repository</a>.
+</p>
+<h1>build</h1>
+<p>
+<b>Requirements</b>: make, valac and a C compiler</p>
+<p>
+Type <code>make</code> to build mipsdis.<br>
+Type <code>make install</code> to install mipsdis under DESTDIR/bin.</br>
+</p>
+<p>
+<h1>usage</h1>
+<p>
+<pre>
+mipsdis binary_to_disassemble
+</pre>
+</p>
+<p>
+This simple will produce assembly code and print it to the standard output.
+</p>
+
+<h1>extending</h1>
+<p>
+Future releases could easily feature HTML output or a GTK+ application. Patches welcome :-)
+</p>
