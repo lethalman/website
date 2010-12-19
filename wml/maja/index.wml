@@ -1,0 +1,48 @@
+{#TITLE#:maja:##}
+
+<h1>maja</h1>
+<p>
+The <b>maja</b> compiler translates Vala code into Javascript code.<br />
+The generated code is straight usable in a web browser or in other environments.<br />
+Currently supported profile is <b><a href="http://live.gnome.org/Dova">dova</a></b> <em>(partial dova-base and dova-model)</em>, a new runtime type system for the <a href="http://live.gnome.org/Vala">Vala language</a> much close to the Javascript model. GLib profile and others could be supported as well.
+</p>
+<p>
+Latest version is 0.1. Grab the sources: <a href="$(ROOT)/download/maja-0.1.0.tar.gz">maja-0.1.0.tar.gz</a>.<br />
+Development version at the <a href="http://gitorious.org/lethal-works/maja">git repository</a>.<br />
+Report bugs and feature requests at <a href="http://maja.lighthouseapp.com/projects/66123-majac/overview">the issue tracker</a>.
+</p>
+
+<h1>why maja</h1>
+<p>
+<ul>
+<li>Javascript is a good language but writing large projects without type safety and weak debugging is time wasting.</li>
+<li>Java is a good language but does not map very well in generated code for writing libraries and programs are too long.</li>
+<li>Vala features a syntax much closer to Javascript like lists, maps, sets, lambda functions, async functions, "var" declaration, property getter/setter, dynamic objects and so on.</li>
+</ul>
+</p>
+
+<h1>examples</h1>
+<p>
+Most of the maja code can be found in the source under tests and examples. The <a href="http://demo.qooxdoo.org/current/demobrowser/">qooxdoo demo browser</a> is being ported in the <a href="http://gitorious.org/lethal-works/maja/commits/qxdemo">qxdemo branch</a>, showing you can do pretty much everything with Maja.
+</p>
+
+<h1>build</h1>
+<p>
+<b>Requirements</b>: valac and libvala-dev</p>
+<p>
+Type <code>make</code> to build maja.<br />
+Installation is not currently well supported, thus discouraged.
+</p>
+
+<h1>usage</h1>
+<p>The <em>majac</em> binary has similar options to valac. Main usage is to translate Vala code into Javascript code.
+<pre>
+majac/majac -o output --vapidir dova-vapi --vapidir vapi file1.vala file2.vala
+</pre>
+</p>
+This will create a single <em>output.js</em> file. In order to use it you must first load <b>maja-utils.js</b> and <b>dova-base-0.1.js</b> then your output.js.<br />
+
+<h1>status</h1>
+<p>
+Majac is not yet complete from a features view point (like async methods) but <u>it is possible to do everything</u> you could do with Javascript. The <a href="http://live.gnome.org/Dova">dova</a> system is still young and incomplete, not letting majac to completely map all Javascript functions into Dova functions.
+</p>
