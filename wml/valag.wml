@@ -5,26 +5,31 @@
 Valag is a <a href="http://www.graphviz.org/">graphviz</a> graph generator for <a href="http://www.vala-project.org">Vala</a> source files.
 </p>
 <p>
-Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/valag-1.0.tar.gz">valag-1.0.tar.gz</a>.<br>
+Latest version is 1.1. Grab the sources: <a href="$(ROOT)/download/valag-1.1.tar.gz">valag-1.1.tar.gz</a>.<br>
 You can browse and clone the code at the <a href="http://gitorious.org/lethal-works/valag">git development repository</a>
 </p>
 <h1>usage</h1>
 <p>
-Command line syntax of valag is similar to valac.
+Command line syntax of valag is similar to valac, except for extra valag related options:
+<ul>
+<li><b>--concentrate</b> &rarr; enables an edge merging technique to reduce clutter in dense layouts of directed graphs</li>
+<li><b>--format</b> &rarr; <a href="http://www.graphviz.org/doc/info/output.html">graphviz output format</a>, default is "xdot" to be used with the xdot.py program distributed with valag</li>
+<li><b>--prefix</b> &rarr; prepend the given prefix to the output filenames
+</ul>
 </p>
 <p>
-TypeSymbol is rounded node. Dashed edges are weak references.<br>
+In the generated graph TypeSymbols are rounded nodes, while dashed edges are weak references.<br>
 Generated files:
 </p>
 <ul>
-<li><b>valainitial.png</b> &rarr; codenode graph right after the parsing process</li>
-<li><b>valaresolved.png</b> &rarr; generated after the symbol resolver</li>
-<li><b>valaanalyzer.png</b> &rarr; after the semantic analyzer</li>
-<li><b>valaflow.png</b> &rarr; puts emphasis on control flow basic blocks</li>
+<li><b>valainitial</b> &rarr; codenode graph right after the parsing process</li>
+<li><b>valaresolved</b> &rarr; generated after the symbol resolver</li>
+<li><b>valaanalyzer</b> &rarr; after the semantic analyzer</li>
+<li><b>valaflow</b> &rarr; puts emphasis on control flow basic blocks</li>
 </ul>
 <h1>install</h1>
 <p>
-<b>Requirements</b>: build-essential, libgraphviz-dev and libvala-dev.
+<b>Requirements</b>: build-essential, libgraphviz-dev and libvala-dev (0.11.x version).
 </p>
 <p>
 First compile valag by typing `make'.
@@ -32,6 +37,7 @@ First compile valag by typing `make'.
 <p>
 To install valag under /usr/local/bin type `make install' as root. If you want to change the installation
 directory (e.g. under /usr/bin) type `make install DESTDIR=/usr'.
+Notice that this process will not install xdot.py.
 </p>
 <h1>screenshots</h1>
 <p>
@@ -58,23 +64,23 @@ Source code reference:
 <b>Vala initial graph</b>
 </p>
 <p>
-<a href="./shots/valainitial.png"><img src="./shots/valainitial.png" width="100%" alt=""></a>
+<a href="$(ROOT)/shots/valainitial.png"><img src="$(ROOT)/shots/valainitial.png" width="100%" alt=""></a>
 </p>
 <p>
 <b>After symbol resolver</b>
 </p>
 <p>
-<a href="./shots/valaresolved.png"><img src="./shots/valaresolved.png" width="100%" alt=""></a>
+<a href="$(ROOT)/shots/valaresolved.png"><img src="$(ROOT)/shots/valaresolved.png" width="100%" alt=""></a>
 </p>
 <p>
 <b>After semantic analyzer</b>
 </p>
 <p>
-<a href="./shots/valaanalyzed.png"><img src="./shots/valaanalyzed.png" width="100%" alt=""></a>
+<a href="$(ROOT)/shots/valaanalyzed.png"><img src="$(ROOT)/shots/valaanalyzed.png" width="100%" alt=""></a>
 </p>
 <p>
 <b>Control flow blocks</b>
 </p>
 <p>
-<a href="./shots/valaflow.png"><img src="./shots/valaflow.png" width="100%" alt=""></a>
+<a href="$(ROOT)/shots/valaflow.png"><img src="$(ROOT)/shots/valaflow.png" width="100%" alt=""></a>
 </p>
