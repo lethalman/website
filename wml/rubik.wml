@@ -1,0 +1,44 @@
+{#TITLE#:rubik:##}
+
+<h1>rubik</h1>
+<p>
+The <b><a href="http://www.rubiks.com/">Rubik's Cube Game</a></b> is a 3D game for Linux written in <a href="http://live.gnome.org/Vala">Vala</a> using the <a href="http://www.clutter-project.org">Clutter</a> framework.
+</p>
+<p>
+Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/rubik-1.0.tar.gz">rubik-1.0.tar.gz</a>.<br />
+Development version at the <a href="http://gitorious.org/lethal-works/rubik">git repository</a>.<br />
+</p>
+
+<h1>features</h1>
+<p>
+<ul>
+<li>&rarr; rotate slice cube in a natural manner</li>
+<li>&rarr; shuffle the cube</li>
+<li>&rarr; save the state of the cube on exit <em>(under $HOME/.rubik)</em></li>
+<li>&rarr; rotate the cube in several easy ways</li>
+</ul>
+</p>
+
+<h1>screenshot</h1>
+<p>
+<a href="$(ROOT)/shots/rubik.png"><img src="$(ROOT)/shots/rubik.png" width="100%" alt=""></a>
+</p>
+
+<h1>build</h1>
+<p>
+<b>Requirements</b>: valac &ge; 0.11.5, clutter-1.0 and json-glib-1.0</p>
+<p>
+Type <code>make</code> to build rubik then <code>./rubik</code> to launch the game.<br />
+Installation is not currently well supported, thus discouraged.
+</p>
+
+<h1>usage</h1>
+<p>Run <code>./rubik</code> to launch the game</p>
+<p>
+<ul>
+<li>&rarr; to rotate a cube slice click on a face and move the mouse</li>
+<li>&rarr; to rotate the view either right click, click outside the cube or keep SHIFT pressed</li>
+<li>&rarr; to rotate the cube around itself press either `a', `q', `w', `e', `d'  or `s'</li>
+<li>&rarr; press ESC to reset rotation</li>
+</ul>
+</p>

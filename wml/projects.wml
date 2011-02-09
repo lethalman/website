@@ -5,6 +5,7 @@
 <p>
   Projects I'm actually owning:
   <ul>
+    <li><a href="$(ROOT)/rubik.html">Rubik</a> <em>- Rubik's Cube 3D Game for Linux</em></li>
     <li><a href="$(ROOT)/maja/index.html">Maja</a> <em>- Vala to Javascript compiler</em></li>
     <li><a href="$(ROOT)/mipsdis.html">Mipsdis</a> <em>- MIPS32 (Release 2) disassembler for reversing stripped ELF (missing sections table)</em></li>
     <li><a href="$(ROOT)/valag.html">Valag</a> <em>- Vala Graph generator with graphviz</em></li>
