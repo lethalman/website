@@ -5,13 +5,14 @@
 The <b><a href="http://www.rubiks.com/">Rubik's Cube Game</a></b> is a 3D game for Linux written in <a href="http://live.gnome.org/Vala">Vala</a> using the <a href="http://www.clutter-project.org">Clutter</a> framework.
 </p>
 <p>
-Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/rubik-1.0.tar.gz">rubik-1.0.tar.gz</a>.<br />
+Latest version is 1.1. Grab the sources: <a href="$(ROOT)/download/rubik-1.1.tar.gz">rubik-1.1.tar.gz</a>.<br />
 Development version at the <a href="http://gitorious.org/lethal-works/rubik">git repository</a>.<br />
 </p>
 
 <h1>features</h1>
 <p>
 <ul>
+<li>&rarr; game timer and moves count</li>
 <li>&rarr; rotate slice cube in a natural manner</li>
 <li>&rarr; shuffle the cube</li>
 <li>&rarr; save the state of the cube on exit <em>(under $HOME/.rubik)</em></li>
