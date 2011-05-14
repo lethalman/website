@@ -5,7 +5,7 @@
 Valag is a <a href="http://www.graphviz.org/">graphviz</a> graph generator for <a href="http://www.vala-project.org">Vala</a> source files.
 </p>
 <p>
-Latest version is 1.1. Grab the sources: <a href="$(ROOT)/download/valag-1.1.tar.gz">valag-1.1.tar.gz</a>.<br>
+Latest version is 1.2. Grab the sources: <a href="$(ROOT)/download/valag-1.2.tar.gz">valag-1.2.tar.gz</a>.<br>
 You can browse and clone the code at the <a href="http://gitorious.org/lethal-works/valag">git development repository</a>
 </p>
 <h1>usage</h1>
