@@ -1,6 +1,7 @@
 TOPDIR=..
 INCS=$(wildcard *.inc)
-CC=wml $(patsubst %,-i%,$(INCS))
+WML=wml
+CC=$(WML) $(patsubst %,-i%,$(INCS))
 SRCS=$(wildcard *.wml) $(wildcard */*.wml)
 OBJS=$(patsubst %,$(TOPDIR)/%,$(subst .wml,.html,$(SRCS)))
 

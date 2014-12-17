@@ -3,7 +3,7 @@
 <h1>what is this place for</h1>
 
 <p>
-I'm Luca Bruno <em>(read as I'm nobody)</em> and this site is going to keep computer science paperworks and jobs collected.
+I'm Luca Bruno and this site is going to keep my computer science paperworks and jobs collected.
 Stack of <a href="http://www.gnu.org">free software</a> involved to make this site:
 </p>
 
@@ -12,11 +12,12 @@ Stack of <a href="http://www.gnu.org">free software</a> involved to make this si
 <li><a href="http://www.gnu.org/software/make/">GNU Make</a> - controls the generation of the site</li>
 <li><a href="http://live.gnome.org/Epiphany/WebKit">Epiphany/WebKit</a> - web browser</li>
 <li><a href="http://www.gnu.org/software/emacs/">GNU Emacs</a> - extensible, customizable text editor</li>
-<li><a href="http://www.debian.org">Debian GNU/Linux</a> - the universal operating system</li>
+<li><strike><a href="http://www.debian.org">Debian GNU/Linux</a> - the universal operating system</strike></li>
+<li><a href="http://nixos.org">NixOS Linux</a> - the declarative operating system</strike></li>
 </ul>
 
 <p>
-I'm used to suggest everybody to use free software to protect your own freedom. So, I suggest you to use free software and adopt the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL license</a> for your projects when possible.
+I'm used to suggest everybody to use free software to protect your own freedom. Adopt the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL license</a> for your projects when possible.
 </p>
 
 <h1>useless links</h1>
