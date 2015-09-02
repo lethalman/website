@@ -16,7 +16,7 @@ It has been successfully tested on Vodafone Station shipping Broadcom binaries.
 </p>
 <p>
 Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/mipsdis-1.0.tar.gz">mipsdis-1.0.tar.gz</a>.<br>
-Development version at the <a href="http://gitorious.org/lethal-works/mipsdis">git repository</a>.
+Development version at the <a href="https://github.com/lethalman/mipsdis">git repository</a>.
 </p>
 <h1>build</h1>
 <p>

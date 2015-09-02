@@ -6,7 +6,7 @@ The <b><a href="http://www.rubiks.com/">Rubik's Cube Game</a></b> is a 3D game f
 </p>
 <p>
 Latest version is 1.1. Grab the sources: <a href="$(ROOT)/download/rubik-1.1.tar.gz">rubik-1.1.tar.gz</a>.<br />
-Development version at the <a href="http://gitorious.org/lethal-works/rubik">git repository</a>.<br />
+Development version at the <a href="https://github.com/lethalman/rubik">git repository</a>.<br />
 </p>
 
 <h1>features</h1>

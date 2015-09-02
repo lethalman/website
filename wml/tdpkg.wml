@@ -7,7 +7,7 @@ It currently works for the <a href="http://www.debian.org">Debian GNU/Linux</a> 
 </p>
 <p>
 Latest version is 1.0. Grab the sources: <a href="$(ROOT)/download/tdpkg-1.0.tar.gz">tdpkg-1.0.tar.gz</a>.<br>
-Development version at the <a href="http://gitorious.org/lethal-works/tdpkg">git repository</a>.
+Development version at the <a href="https://github.com/lethalman/tdpkg">git repository</a>.
 </p>
 <h1>build</h1>
 <p>

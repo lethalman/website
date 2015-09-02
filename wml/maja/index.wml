@@ -8,8 +8,7 @@ Currently supported profile is <b><a href="http://live.gnome.org/Dova">dova</a><
 </p>
 <p>
 Latest version is 0.1. Grab the sources: <a href="$(ROOT)/download/maja-0.1.0.tar.gz">maja-0.1.0.tar.gz</a>.<br />
-Development version at the <a href="http://gitorious.org/lethal-works/maja">git repository</a>.<br />
-Report bugs and feature requests at <a href="http://maja.lighthouseapp.com/projects/66123-majac/overview">the issue tracker</a>.
+Development version at the <a href="https://github.com/lethalman/maja">git repository</a>.
 </p>
 
 <h1>why maja</h1>
